@@ -1,1 +1,1 @@
-﻿# tuanishstore : an online store
+﻿# Ecommercestore : A multi-vendor e-commerce website
