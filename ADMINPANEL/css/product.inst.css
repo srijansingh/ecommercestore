@@ -1,0 +1,72 @@
+
+.wrapper{
+    position:absolute;
+    top:80px;
+    left:265px;
+    width:1080px;
+    
+    border:1px solid #8c8c8c;
+}
+.band{
+    position:relative;
+    width:100%;
+    background:#8c8c8c;
+    
+}
+.band h2{
+    position:relative;
+    left:10px;
+}
+.form{
+    position:relative;
+    width:70%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    left:15%;
+    top:5%;
+    background:#ccc;
+    
+    padding:20px;
+
+
+}
+table{
+    position:relative;
+    width:100%;
+}
+.nam{
+    font-weight:bold;
+    
+}
+input,select,textarea{
+    position: relative;
+    width:100%;
+    resize:none;
+    outline:none;
+    border:none;
+    font-size:16px;
+    padding:5px 0px;
+    margin:3px 0px;
+    border-radius:2px;
+    font-family:sans-serif;
+    
+}
+select option{
+    outline:none;
+}
+input[type="file"]{
+    position:relative;
+    background:white;
+    
+}
+input[type="submit"]
+{
+    position:relative;
+    width:100%;
+    border:none;
+    background:#666666;
+    text-align: center;
+    color:white;
+    cursor:pointer;
+    font-size:20px;
+}

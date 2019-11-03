@@ -1,0 +1,120 @@
+body{
+    background:#fff;
+}
+.search_box{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    padding:8px 0px;
+    background:#fff;
+    text-align:center;
+    border-bottom:1px solid #e6e6e6;
+}
+form{
+    position:relative;
+    width:auto;
+    color:#666666;
+    margin:0px 5px;
+}
+form a{
+  position:relative;
+  float:left;
+  font-size:22px;
+  text-decoration:none;
+  padding:5px 3px;
+}
+input{
+    position:relative;
+    max-width:600px;
+    width:100%;
+    padding:8px 15px;
+    border:none;
+    background:#f2f2f2;
+    border-radius:20px 0px 0px 20px;
+    outline:none;
+
+}
+button{
+    position:relative;
+    padding:9px;
+    outline:none;
+    border:none;
+    background:#f2f2f2;
+    left:-5px;
+    border-radius:0px 20px 20px 0px;
+}
+@media(max-width:768px)
+{
+    form{
+        position: relative;
+        margin:0px 5px;
+        background:transparent;
+    }
+    input{
+        position:relative;
+        max-width:310px;
+        width:100%;
+    }
+}
+@media(max-width:360px)
+{
+    input{
+        position:relative;
+        max-width:250px;
+        width:100%;
+    }
+}
+.noitems{
+	position:absolute;
+	top:180px;
+	padding:20px 0px;
+	left:0px;
+	width:100%;
+	background:;
+	display:flex;
+	flex-direction:column;
+text-align:center;
+
+
+}
+.icon{
+	position:relative;
+
+	width:auto;
+
+
+
+}
+.icon #icons{
+	position:relative;
+	font-size:120px;
+
+	color:#e6e6e6;
+	padding:20px 0px;
+}
+.items{
+	position:relative;
+	padding:10px 0px;
+	width:100%;
+	font-size:25px;
+}
+.go{
+	position:relative;
+	padding:20px 0px;
+	width:100%;
+}
+.go a{
+	position:relative;
+	width:100%;
+	background:lawngreen;
+	padding:10px 60px;
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	border-radius:20px;
+}
+.result{
+  position:relative;
+  top:5px;
+}

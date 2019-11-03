@@ -1,0 +1,65 @@
+.wrapper{
+    position:fixed;
+    top:80px;
+    left:265px;
+    width:1080px;
+    height:85%;
+    border:1px solid #8c8c8c;
+}
+.band{
+    position:relative;
+    width:100%;
+    background:#8c8c8c;
+
+}
+.band h2{
+    position:relative;
+    left:10px;
+}
+.form{
+    position:relative;
+    width:60%;
+    left:20%;
+    top:10%;
+    background:#ccc;
+    padding:20px;
+}
+label{
+    position:relative;
+    font-size:20px;
+
+
+}
+input{
+    position:relative;
+    font-size:18px;
+    padding:5px 0px;
+    outline:none;
+    border-radius:3px;
+    border:none;
+     margin:10px 0px;
+}
+textarea{
+    position:relative;
+    resize:none;
+    outline:none;
+    border:none;
+    font-size:18px;
+    border-radius:3px;
+    line-height: 20px;
+    margin:10px 0px;
+}
+.input{
+
+    position:relative;
+    width:100%;
+}
+.subcat{
+    position:relative;
+    width:100%;
+    border:none;
+    background:#666666;
+    text-align: center;
+    color:white;
+    cursor:pointer;
+}

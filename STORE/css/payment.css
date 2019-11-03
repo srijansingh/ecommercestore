@@ -1,0 +1,188 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    background:#ffff;
+}
+a{
+    text-decoration:none;
+
+}
+.head_back{
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  
+  padding:10px 0px;
+  border-bottom:1px solid #e6e6e6;
+}
+.head_back a{
+  position: relative;
+  text-decoration:none;
+  color:#666666;
+  font-size:22px;
+  padding:5px 10px;
+}
+.payment_container .pro_img{
+    position:relative;
+    display:grid;
+    width:auto;
+    padding:10px 15px;
+    background:white;
+    grid-gap: 5px;
+
+    grid-template-columns: repeat(1,1fr);
+    margin:10px 12px;
+
+
+
+}
+.individual{
+    position:relative;
+    display:flex;
+    width:100%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+    flex-direction:row;
+    border-radius:5px 10px;
+
+}
+.ind_image img{
+    position:relative;
+    height:50px;
+    position:center;
+    width:50px;
+    border-radius:5px 0 0 10px;
+}
+.individual .pro_des{
+    position:relative;
+    padding:4px 6px;
+
+}
+
+.payment_container{
+    position:absolute;
+    top:44px;
+
+    left:0px;
+    width:100%;
+    height:auto;
+
+    margin-bottom:50px;
+
+
+}
+.payment_option{
+    position:relative;
+    width:auto;
+    margin:40px 4px;
+    
+    margin-bottom:8px;
+
+}
+
+
+.options{
+    position:relative;
+    width:auto;
+    padding:8px 6px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    border:1px solid #e6e6e6;
+    border-radius:5px 10px;
+}
+.options .right{
+    position:relative;
+    text-align:right;
+
+
+}
+.options span{
+    position:relative;
+
+    padding:8px 0px;
+}
+
+.delivery_add{
+    position:relative;
+
+    width:auto;
+    margin:40px 4px;
+    margin-bottom:10px;
+   border-radius:5px 10px;
+    border-top:1px solid #f2f2f2;
+}
+.payment_container p{
+    position:relative;
+    margin:0px;
+
+    padding:4px 0px;
+
+    color:#1a1a1a;
+    font-size:18px;
+    font-weight:bold;
+}
+.del_options{
+    position:relative;
+    text-align:left;
+    font-size:16px;
+    padding:6px;
+    border-radius:5px 10px;
+    border:1px solid #e6e6e6;
+
+}
+.del_options input{
+    position:relative;
+    float:right;
+    right:10px;
+
+}
+.confirm_order{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    
+}
+.confirm_order-inc{
+    position:relative;
+   
+    margin:3px 8px;
+       display:grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius:7px 15px;
+    background:white;
+    padding:5px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:center;
+}
+.confirm_order button
+{
+    position:relative;
+    width:100%;
+    border:none;
+    background:deepskyblue;
+    color:white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+    border-radius:7px 15px;
+    outline:none;
+    font-size:20px;
+    padding:8px;
+    font-weight:bold;
+}
+@media(min-width:786px)
+{
+    .payment_container{
+        position:relative;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+
+
+    }
+    .confirm_order{
+        position:relative;
+        width:auto;
+        margin:0px 20px;
+       
+    }
+}

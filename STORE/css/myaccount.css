@@ -1,0 +1,296 @@
+body{
+    background:#fff;
+}
+.account{
+    position:fixed;
+    top:46px;
+    left:0px;
+    
+    width:100%;
+    height:100%;
+}
+.img_name{
+    position:relative;
+    width:100%;
+    left:0px;
+
+    align-items:center;
+}
+.img_name img{
+    position:relative;
+    width:100px;
+    height:100px;
+    left:50% ;
+    padding:2px;
+    border-radius:50%;
+    background-position:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background:white;
+    margin:10px 0px;
+    transform:translate(-50%,0%);
+
+}
+.img_name .name_profile{
+    position:relative;
+    text-align:center;
+    color:#00bfff;
+
+    width:100%;
+
+}
+.names{
+    position:relative;
+    font-size:18px;
+}
+.name_con{
+    position:relative;
+    font-size:15px;
+    color:#000;
+
+}
+
+.address{
+    position:relative;
+    top:0px;
+
+    width:auto;
+    margin:10px;
+    background:#f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:5px 10px;
+}
+.myaddhead{
+    position:relative;
+    padding:10px;
+    font-size:22px;
+    color:#000000;
+    font-weight:500;
+}
+.myadddesc{
+    position:relative;
+    padding:0px 10px;
+    margin-bottom:5px;
+    font-size:16px;
+    color:#1a1a1a;
+}
+
+.accbtn{
+    position:relative;
+    display:flex;
+    bottom:0px;
+    width:100%;
+
+    flex-direction:column;
+}
+.accbtn a{
+    position:relative;
+    width:100%;
+    text-decoration:none;
+    background:#fff;
+
+}
+.myaddbtn2{
+    position:relative;
+     text-decoration:none;
+    color:black;
+    border-radius:0 0 5px 10px;
+    padding:10px;
+    text-align:left;
+    font-weight:bold;
+    font-size:16px;
+    background:#fff;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.address a{
+    text-decoration:none;
+    color:black;
+
+}
+/*
+.contact_info{
+		position:relative;
+		padding-top:10px;
+		left:0px;
+
+		background-size: cover;
+		width:100%;
+
+
+	}
+	.address form{
+		position:relative;
+        border-top:1px solid #d4d4d4;
+		border-bottom:1px solid #d4d4d4;
+		color:black;
+		margin:0px 15px;
+		display:grid;
+		grid-template-columns: repeat(1,1fr);
+	}
+	.address form input{
+		position:relative;
+		background:transparent;
+		padding:3px 10px;
+		font-size:17px;
+		border:1px solid transparent;
+
+		outline:none;
+		color:#1a1a1a;
+		margin:5px 10px;
+
+	}
+.address form input[type='submit']{
+    background:#fe5906;
+    color:white;
+    font-size:18px;
+    width:50%;
+}
+.address form input[type='email']:hover{
+    cursor: not-allowed;
+}
+.address form input[type='text']:hover{
+    border-bottom:1px solid #fe5906;
+}
+
+label{
+    position:relative;
+    font-size:12px;
+    font-weight:bold;
+}
+*/
+.notlogin{
+    position:absolute;
+    top:47px;
+    left:0px;
+
+
+
+}
+.notlogin .logo{
+    position:relative;
+    max-width:760px;
+    height:300px;
+    width:100%;
+
+}
+.logo img{
+    position:relative;
+    max-width:760px;
+    max-height:300px;
+    width:100%;
+}
+.type{
+    position:relative;
+
+    padding:20px;
+    width:auto;
+    font-size:25px;
+
+
+}
+.type a{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    text-decoration: none;
+    width:100%;
+    background:#00bfff;
+    padding:16px 0px;
+    text-align:center;
+    color:#fff;
+
+}
+@media(min-width:786px){
+    .notlogin{
+    position:absolute;
+    top:40px;
+    left:0px;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .notlogin .logo{
+    position:relative;
+    max-width:600px;
+        width:100%;
+    max-height:600px;
+    height:100%;
+
+    }
+    .logo img{
+        position:relative;
+        max-height:500px;
+        width:auto;
+    }
+    .type{
+    position:relative;
+    font-family:cursive;
+        top:100px;
+    padding:20px;
+    width:auto;
+    font-size:45px;
+    text-align:center;
+    font-weight:bold;
+}
+}
+@media(min-width:786px)
+{
+
+    .myaccount{
+        position:relative;
+        left:50%;
+        width:50%;
+        transform:translate(-50%,0%);
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:10px;
+    }
+}
+.noitems{
+	position:absolute;
+	top:180px;
+	padding:20px 0px;
+	left:0px;
+	width:100%;
+	background:;
+	display:flex;
+	flex-direction:column;
+text-align:center;
+
+
+}
+.icon{
+	position:relative;
+
+	width:auto;
+
+
+
+}
+.icon #icons{
+	position:relative;
+	font-size:120px;
+	transform:rotate(20deg);
+	color:#e6e6e6;
+	padding:20px 0px;
+}
+.items{
+	position:relative;
+	padding:10px 0px;
+	width:100%;
+	font-size:25px;
+}
+.go{
+	position:relative;
+	padding:20px 0px;
+	width:100%;
+}
+.go a{
+	position:relative;
+	width:100%;
+	background:#00bfff;
+	padding:10px 60px;
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	border-radius:20px;
+}

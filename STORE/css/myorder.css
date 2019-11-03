@@ -1,0 +1,148 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+.head_back{
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  background:white;
+  padding:10px 0px;
+  border-bottom:1px solid #d4d4d4;
+}
+.head_back a{
+  position: relative;
+  text-decoration:none;
+  color:#333333;
+  font-size:22px;
+  padding:5px 10px;
+}
+
+.main-box{
+
+  position:absolute;
+  width:100%;
+  top:43px;
+  left:0px;
+
+
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  font-family:arial;
+}
+section{
+  position:relative;
+  background:#fff;
+  margin:20px;
+  border:1px solid #e6e6e6;
+  width:auto;
+  padding:;
+}
+.dates{
+  position:relative;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  width:auto;
+  margin:5px 20px;
+  padding:5px 0px;
+  font-size:12px;
+}
+.right{
+  position:relative;
+  text-align:right;
+  color:#a6a6a6;
+}
+.detailing{
+  position:relative;
+  padding:10px 0px;
+  margin:5px 20px;
+  width:auto;
+  display:flex;
+  flex-direction:row;
+
+}
+.imgs img{
+  position:relative;
+  height:130px;
+  width:110px;
+  border:1px solid #e6e6e6;
+}
+.pro_info{
+  position:relative;
+  padding:4px 15px;
+  width:auto;
+  font-size:15px;
+  color:#000;
+}
+.status{
+  position:relative;
+  width:auto;
+  background:#fff;
+  padding:8px 0px;
+  text-align:center;
+
+  border:1px solid #e6e6e6;
+}
+@media(max-width:768px)
+{
+  .main-box{
+  position:absolute;
+  width:100%;
+  top:43px;
+  left:0px;
+
+
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+  font-family:arial;
+}
+}
+.noitems{
+	position:absolute;
+	top:120px;
+	padding:20px 0px;
+	left:0px;
+	width:100%;
+	background:;
+	display:flex;
+	flex-direction:column;
+text-align:center;
+
+
+}
+.icon{
+	position:relative;
+
+	width:auto;
+
+
+
+}
+.icon #icons{
+	position:relative;
+	font-size:150px;
+
+	color:highlight;
+	padding:20px 0px;
+}
+.items{
+	position:relative;
+	padding:10px 0px;
+	width:100%;
+	font-size:25px;
+}
+.go{
+	position:relative;
+	padding:20px 0px;
+	width:100%;
+}
+.go a{
+	position:relative;
+	width:100%;
+	background:#00bfff;
+	padding:10px 60px;
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	border-radius:20px;
+}

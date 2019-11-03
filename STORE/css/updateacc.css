@@ -1,0 +1,128 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+   background:#fff;
+}
+.head_back{
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  background:white;
+  padding:10px 0px;
+  border-bottom:1px solid #e6e6e6;
+}
+.head_back a{
+  position: relative;
+  text-decoration:none;
+  color:#666666;
+  font-size:22px;
+  padding:5px 10px;
+}
+.login-box{
+    position:absolute;
+    top:47px;
+    left:0px;
+    width:auto;
+
+    overflow:none;
+  
+
+  }
+
+.img_name{
+    position:relative;
+    width:100%;
+    left:0px;
+
+    align-items:center;
+}
+.img_name img{
+    position:relative;
+    width:100px;
+    height:100px;
+    left:50% ;
+    border-radius:50%;
+    background-position:center;
+    border:2px solid #f2f2f2;
+    background:white;
+    margin:10px 0px;
+    transform:translate(-50%,0%);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.img_name .name_profile{
+    position:relative;
+    text-align:center;
+    color:black;
+    width:100%;
+
+}
+.names{
+    position:relative;
+    font-size:18px;
+}
+
+.login-box .form-data{
+	position:relative;
+
+    width:auto;
+	margin-top:0px;
+	padding:30px 50px;
+	display:flex;
+	flex-direction:column;
+  }
+  .login-box label{
+	position:relative;
+	font-weight:bold;
+    padding:0px 0px;
+   font-size:14px;
+
+	margin-top:10px;
+	color:#000;
+  }
+  .login-box label a{
+	  text-decoration:none;
+	  color:#ffffff;
+	  width:auto;
+	  font-weight:normal;
+	  float:right;
+  }
+  .login-box input{
+    position:relative;
+    width:100%;
+	padding:8px;
+	margin:8px 0px;
+	background:#fff;
+	border:none;
+	outline:none;
+	border-radius:10px 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size:16px;
+
+  }
+  .login-box input[type="submit"]
+  {
+	position:relative;
+	margin-top:20px;
+	padding:8px;
+	background:#00bfff;
+	border:none;
+	font-size:22px;
+	font-weight:bold;
+	color:#fff;
+  }
+  @media(min-width:786px)
+  {
+    .login-box{
+        position:absolute;
+        height:auto;
+        top:46px;
+        width:40%;
+        left:50%;
+        transform:translate(-50%,0%);
+
+
+      }
+  }

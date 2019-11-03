@@ -1,0 +1,21 @@
+{
+  "short_name": "Tuanish",
+  "name": "Tuanish Store",
+  "icons": [
+    {
+      "src": "logo1.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo1.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.php",
+  "background_color": "#fff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#fff"
+}

@@ -1,0 +1,64 @@
+.wrapper{
+    position:absolute;
+    top:80px;
+    left:265px;
+    width:1080px;
+    height:90%;
+    overflow-x:hidden;
+    overflow-y:inherit;
+    border:1px solid #8c8c8c;
+}
+.band{
+    position:relative;
+    top:0px;
+    width:100%;
+    background:#8c8c8c;
+
+}
+.band h2{
+    position:relative;
+    left:10px;
+}
+.recent_orders{
+    position:relative;
+    top:50px;
+    left:30px;
+    width:1000px;
+    border:1px solid #e6e6e6;
+
+}
+.recent_orders table input{
+    position:relative;
+    width:60px;
+    border:none;
+    outline:none;
+    background:transparent;
+}
+.recent_orders table th{
+    text-align:;
+
+    background:#cccccc;
+    padding:3px 5px;
+}
+.recent_orders table tr td{
+    text-align:center;
+    border-right:2px solid #f2f2f2;
+    background:#e6e6e6;
+    padding:3px 5px;
+    color:black;
+}
+.recent_orders table tr td select{
+    position:relative;
+    border:none;
+    background:transparent;
+    color:purple;
+    font-weight:bold;
+}
+.recent_orders table tr td button{
+    position:relative;
+    border:1px solid purple;
+    padding:3px;
+    background:transparent;
+    color:purple;
+    font-weight:bold;
+}

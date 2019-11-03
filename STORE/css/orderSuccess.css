@@ -1,0 +1,126 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+.head_back{
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  background:white;
+  padding:10px 0px;
+  border-bottom:1px solid #e6e6e6;
+}
+.head_back a{
+  position: relative;
+  text-decoration:none;
+  color:#000;
+  font-size:22px;
+  padding:5px 10px;
+}
+body{
+    background:linear-gradient(45deg,deepskyblue,white);
+}
+.success_order{
+  position:absolute;
+  top:44px;
+  left:0px;
+  width:100%;
+  height:auto;
+
+}
+.invoice_detail{
+  position:relative;
+  width:auto;
+  margin:4px 6px;
+
+  padding:5px 20px;
+  opacity:0.8;
+
+  font-size:20px;
+}
+.invoice_detail p{
+  position:relative;
+  font-size:14px;
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap:0px;
+}
+.invoice_detail button{
+  width:auto;
+  padding:8px;
+
+  border:none;
+  outline:none;
+  color:white;
+  font-size:20px;
+}
+.thanks{
+  position:relative;
+  margin-top:20px;
+  background:white;
+  color:white;
+  width:100%;
+  padding:10px 0px;
+  text-align:center;
+  font-size:20px;
+
+  color:#00bfff;
+  border-radius:20px;
+}
+.shop_more{
+  position:fixed;
+  margin:4px 0px;
+  width:100%;
+  bottom:0px;
+  text-decoration: none;
+  background:#00bfff;
+  padding:8px 0px;
+  text-align:center;
+  font-size:25px;
+  color:white;
+  left:0px;
+  margin-bottom:0px;
+}
+.ids{
+  position:relative;
+
+  font-size:16px;
+
+  background:;
+  margin-top:10px;
+  padding:8px 10px;
+}
+.confirm-info{
+  background:linear-gradient(45deg,white,white);
+  width:auto;
+  padding:15px;
+  border-radius:15px;
+  display:flex;
+  flex-direction:column;
+}
+@media(min-width:786px)
+{
+  .invoice_detail{
+    position:relative;
+    margin:0px;
+    width:50%;
+    left:25%;
+    top:20%;
+    transfrom:translate(-50%,-50%);
+
+  }
+  .shop_more{
+  position:fixed;
+  margin:4px 0px;
+  width:47%;
+  bottom:50px;
+  text-decoration: none;
+  background:#00bfff;
+  padding:8px 30px;
+  text-align:center;
+  font-size:25px;
+  color:white;
+  left:25%;
+  border-radius:5px;
+}
+}

@@ -1,0 +1,50 @@
+.admin-info{
+                position:relative;
+                top:10px;
+                width:250px;
+                background:linear-gradient(45deg, lightblue,deepskyblue,skyblue);
+                padding:40px 25px;
+                border-radius:20px;
+
+            }
+            input{
+                width:92%;
+                margin-top:7px;
+                margin-right:10px;
+                padding:10px 10px 10px 10px;
+                border:none;
+                border-radius:20px;
+                background:white;
+                color:deepskyblue;
+                font-weight: bold;
+                outline:none;
+            }
+            ::placeholder{
+                color:skyblue;
+            }
+            h2{
+               color:white;
+            }
+            input[type="submit"]
+            {
+                width:100%;
+                padding:8px 0px;
+                font-size:17px;
+               background:deepskyblue;
+                color:white;
+                font-weight:bold;
+                border:3px solid white;
+                cursor:pointer;
+            }
+            input[type="submit"]:hover{
+                 background:white;
+                 color:deepskyblue;
+                 border:3px solid deepskyblue;
+                transition:0.6s;
+            }
+            #alerts{
+                position: relative;
+                width:100%;
+                color:red;
+                height:20px;
+            }
